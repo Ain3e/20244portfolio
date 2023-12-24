@@ -2,10 +2,12 @@ import Image from 'next/image'
 
 export default function Home() {
     return (
-        <section className="mx-8 grid grid-cols-24 gap-x-5 antialiased gap-y-0">
-            <nav className="font-favorit text-xs my-6 col-span-full">
+        <main className="mx-8 grid grid-cols-24 gap-x-5 antialiased gap-y-0">
+            <nav className="font-favorit text-xs col-span-full sticky top-0 py-6 bg-white w-full">
                 <ul>
-                    <li className="float-left">ALEX LUOWAN</li>
+                    <a href="/">
+                        <li className="float-left">ALEX LUOWAN</li>
+                    </a>
                     <li className="float-left mx-3">—</li>
                     <li className="float-left mr-6"><a href="/" className="">
                         <button
@@ -50,11 +52,12 @@ export default function Home() {
                         </svg>
                     </div>
 
-                    <hr className="bg-black mt-3 border-1 border-black"></hr>
+                    <hr className="bg-black mt-3 border-1 border-customGray"></hr>
                 </div>
             </div>
 
             <div className="col-start-1 col-span-12 mt-8 text-base font-favorit">
+                <a href="/projects/88rising">
                 <Image src="/img/88rising/88rising-thumbnail.png"
                        alt="a laptop displaying a black website with red accents" width={3075} height={1672}></Image>
                 <div>
@@ -62,7 +65,7 @@ export default function Home() {
                     <h4 className="mt-thumbnail-top">88rising</h4>
                 </div>
                 <h4 className="-mt-1 text-customGray">Experience Design</h4>
-
+                </a>
             </div>
 
             <div className="col-start-13 col-span-full mt-8 text-base font-favorit">
@@ -74,7 +77,7 @@ export default function Home() {
                 </div>
                 <h4 className="-mt-1 text-customGray">Interaction Design, Art Direction</h4>
             </div>
-            
-        </section>
+
+        </main>
     )
 }

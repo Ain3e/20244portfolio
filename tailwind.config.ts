@@ -70,7 +70,7 @@ const config: Config = {
       },
 
       margin: {
-        'home-top': '8.5rem', // Your custom margin value
+        'home-top': '11rem', // Your custom margin value
         'thumbnail-top' :'0.62rem',
       },
 
