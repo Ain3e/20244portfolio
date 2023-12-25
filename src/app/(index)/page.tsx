@@ -69,24 +69,33 @@ export default function Home() {
                        className="col-start-1 col-span-12"
                 >
                 </Image>
-                <div className="col-start-1 row-start-2 font-favorit text-base col-span-6" >
+                <div className="col-start-1 row-start-2 font-favorit text-base col-span-6">
                     <h4 className="mt-thumbnail-top">88rising</h4>
                     <h4 className="-mt-1 text-customGray">Experience Design</h4>
                 </div>
-                <div className="col-start-6 row-start-2 font-favorit text-base col-span-6" >
-                    <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A transformed digital interface to help fans
+                <div className="col-start-6 row-start-2 font-favorit text-base col-span-6">
+                    <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A transformed digital interface to
+                        help fans
                         to explore and uplift emerging artists</h4>
                 </div>
-                <div className="col-start-12 row-start-2 font-favorit text-base col-span-1" >
+                <div className="col-start-12 row-start-2 font-favorit text-base col-span-1">
                     <h4 className="mt-thumbnail-top text-right">2023</h4>
                 </div>
 
-
-
-                <div className="col-start-13 row-start-2 font-favorit text-base col-span-6" >
+                <div className="col-start-13 row-start-2 font-favorit text-base col-span-6">
                     <h4 className="mt-thumbnail-top">Give Me Yesterday</h4>
                     <h4 className="-mt-1 text-customGray">Interaction Design, Art Direction</h4>
                 </div>
+
+                <div className="col-start-18 row-start-2 font-favorit text-base col-span-6">
+                    <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A compelling online preview for an
+                        upcoming
+                        exhibition, enticing visitors to experience the works in person.</h4>
+                </div>
+                <div className="col-start-24 row-start-2 font-favorit text-base col-span-1">
+                    <h4 className="mt-thumbnail-top text-right">2022</h4>
+                </div>
+
 
                 <Image src="/img/givemeyesterday/givemeyesterday-thumbnail.png"
                        alt="a laptop"
@@ -96,17 +105,6 @@ export default function Home() {
                 >
                 </Image>
             </div>
-
-
-            {/*<div className="col-start-13 col-span-full mt-8 text-base font-favorit">*/}
-            {/*    <Image src="/img/givemeyesterday/givemeyesterday-thumbnail.png"*/}
-            {/*           alt="a laptop" width={3075} height={1672}></Image>*/}
-            {/*    <div>*/}
-            {/*        <h4 className="float-right">2022</h4>*/}
-            {/*        <h4 className="mt-thumbnail-top">Give Me Yesterday</h4>*/}
-            {/*    </div>*/}
-            {/*    <h4 className="-mt-1 text-customGray">Interaction Design, Art Direction</h4>*/}
-            {/*</div>*/}
 
         </main>
     )
