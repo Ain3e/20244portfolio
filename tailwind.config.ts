@@ -32,7 +32,7 @@ const config: Config = {
         'base': '0.75rem',
       },
       lineHeight: {
-        'text-base': '1.125rem',  // Change the line height to your desired value
+        'bodyPara': '1rem',  // Change the line height to your desired value
       },
 
       gridTemplateColumns: {
