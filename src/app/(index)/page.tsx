@@ -9,7 +9,7 @@ export default function Home() {
                     <li>—</li>
                     <li><a href="/" className="">
                         <button
-                            className="hover:underline ease-in-out duration-300 hover:text-hoverGray">WORK
+                            className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
                         </button>
                     </a></li>
                     <li><a href="/" className="">
