@@ -71,7 +71,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Project Overview
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         88rising stands as a multimedia record label committed to bridging the cultural gap between the
                         East and West. Through the promotion of Asian and Asian American culture across diverse media
                         platforms, the company aims to foster a deeper understanding and appreciation. This redesigned
@@ -116,7 +116,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Research + Framing: <span className="text-customGray"> Business Opportunity </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         Despite a successful debut, they have struggled to maintain momentum, losing over 2.6 billion
                         viewerships in the past 4 years.
                         To find the root of the problem the team conducted user interviews and surveys involving 89
@@ -142,7 +142,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Research + Framing: <span className="text-customGray"> Uncovering Engagement Gaps </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         Our findings revealed a notable lack of engagement attributed to a substantial awareness gap,
                         as 62% of respondents were unaware of 88rising&rsquo;s monthly releases. Despite the consensus
                         uncovered by user surveys regarding a decline in popularity,
@@ -178,7 +178,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Research + Framing: <span className="text-customGray"> Framing the Problem </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         From a business perspective, my team and I identified that 88rising fans were struggling to
                         engage with the diverse roster
                         and collaborative content scattered across various platforms. We proposed an intervention
@@ -203,7 +203,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Result: <span className="text-customGray"> The New Fan Experience </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         This intervention invite fans to explore and delve deeper into artists they may not have
                         encountered previously.
                         It also introduces fans to the latest album releases,
@@ -227,7 +227,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Result: <span className="text-customGray"> Cultural Familiarity </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         Offering a point of departure and attracting casual audiences unfamiliar with where to start,
                         the incorporation of various languages aids in introducing fans to
                         new artists by establishing relatable connections rooted in asian language and culture.
@@ -247,7 +247,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Result: <span className="text-customGray"> Renewed Emphasis on Collaboration  </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         88rising&rsquo;s artists bring together unique voices and styles, making them stand out from the
                         crowd.
                         On our artist pages, we&rsquo;ve ditched the usual static grid layout to give fans a more lively
@@ -268,7 +268,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Result: <span className="text-customGray"> Unique Artist Personalities  </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         On each artist&rsquo;s page, fans will find stacks of images that neatly organize a ton of
                         relatable and personal content from various platforms onto one screen.
                         This design makes it easy for casual fans to dive into the world of artists they find
@@ -299,7 +299,7 @@ export default function Home() {
                     <h3 className="text-2xl font-eiko">
                         Thanks for Reading: <span className="text-customGray"> Lessons Learned  </span>
                     </h3>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         My key learning from this project was learning to effectively frame a problem, taking into
                         account
                         not only the fans perspective but also considering the business side. I came to the realization
