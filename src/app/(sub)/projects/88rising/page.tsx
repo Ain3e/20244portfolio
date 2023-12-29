@@ -79,7 +79,7 @@ export default function Home() {
                         details about their cherished artists, while also extending support to lesser-known talents,
                         thereby expanding their influence.
                     </p>
-                    <p className="text-base font-favorit mt-4">
+                    <p className="text-bodycopy font-favorit mt-4">
                         I was responsible for conducting user research, content strategy, visuals, and interaction,
                         while also facilitating a design sprint.
                     </p>
