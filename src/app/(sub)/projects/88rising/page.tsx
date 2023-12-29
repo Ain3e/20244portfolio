@@ -39,7 +39,7 @@ export default function Home() {
                    alt="a laptop"
                    width={3075}
                    height={1672}
-                   className="col-start-13 col-span-12"
+                   className="w-full"
             >
             </Image>
             <div className="mx-8 grid grid-cols-24 gap-x-5 mt-9">
