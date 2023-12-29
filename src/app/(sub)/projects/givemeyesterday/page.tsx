@@ -25,13 +25,13 @@ export default function Home() {
                             </button>
                         </a></li>
                     </ul>
-                    <div className="col-start-24">
-                        <a href="/" className="">
-                            <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6">INDEX
-                            </button>
-                        </a>
-                    </div>
+                    {/*<div className="col-start-24">*/}
+                    {/*    <a href="/" className="">*/}
+                    {/*        <button*/}
+                    {/*            className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6">INDEX*/}
+                    {/*        </button>*/}
+                    {/*    </a>*/}
+                    {/*</div>*/}
                 </nav>
             </div>
 
