@@ -49,7 +49,7 @@ export default function Home() {
                         their favourite artists and stay informed.
                     </h2>
                 </div>
-                <div className="col-start-20 col-span-5 font-favorit text-base row-start-1">
+                <div className="col-start-20 col-span-5 font-favorit text-bodycopy row-start-1">
                     <h4>
                         Contribution
                     </h4>
@@ -312,7 +312,7 @@ export default function Home() {
 
                     </p>
 
-                    <p className="text-base font-favorit mt-4"> I am grateful to both my team and the teaching staff who helped me stay grounded during the
+                    <p className="text-bodycopy font-favorit mt-4"> I am grateful to both my team and the teaching staff who helped me stay grounded during the
                         challenging weeks. :)
                     </p>
                 </div>
