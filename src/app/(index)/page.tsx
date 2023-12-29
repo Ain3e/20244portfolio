@@ -48,7 +48,7 @@ export default function Home() {
                 <div className="col-start-1 col-span-full mt-12">
                     <div>
                         <div className="flex flex-row gap-2">
-                            <h4 className="text-base font-favorit">
+                            <h4 className="text-bodycopy font-favorit">
                                 Featured Works
                             </h4>
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
