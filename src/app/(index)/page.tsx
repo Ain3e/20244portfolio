@@ -35,7 +35,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-24 gap-x-5 mt-home-top">
                 <div className="col-start-1 col-span-15">
-                    <h2 className="text-2.5xl font-eiko text-customGray">
+                    <h2 className="text-3xl font-eiko text-customGray">
                         Meet <span className="text-black"> Alex Luowan </span>, the data informed product designer
                         creating
                         compelling digital experiences
