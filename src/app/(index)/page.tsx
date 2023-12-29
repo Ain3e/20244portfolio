@@ -19,7 +19,7 @@ export default function Home() {
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
                             </button>
                         </a></li>
-                        <li><a href="/" className="">
+                        <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing" className="" target="_blank">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
                             </button>
