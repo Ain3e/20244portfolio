@@ -1,6 +1,6 @@
 export default function Footer() {
     return(
-        <footer className="mx-8 grid grid-cols-24 gap-x-5 antialiased gap-y-0 mt-20">
+        <footer className="mx-8 grid grid-cols-24 gap-x-5 antialiased gap-y-0 mt-20 ">
             <hr className="col-start-1 col-span-24 border-customGray"></hr>
             <h4 className="text-base text-customGray font-favorit col-span-3 my-4">
                 Vancouver, Canada

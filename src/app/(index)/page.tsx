@@ -1,35 +1,38 @@
 import Image from 'next/image'
+import React from "react";
 
 export default function Home() {
     return (
         <main className="antialiased gap-y-0">
-            <div className="mx-8 grid grid-cols-24 gap-x-5 font-favorit text-xs py-4">
-                <ul className="flex flex-row col-span-12 gap-3">
-                    <li><a href="/" className="">ALEX LUOWAN</a></li>
-                    <li>—</li>
-                    <li><a href="/" className="">
-                        <button
-                            className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
-                        </button>
-                    </a></li>
-                    <li><a href="/" className="">
-                        <button
-                            className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
-                        </button>
-                    </a></li>
-                    <li><a href="/" className="">
-                        <button
-                            className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
-                        </button>
-                    </a></li>
-                </ul>
-                <div className="col-start-24">
-                    <a href="/" className="">
-                        <button
-                            className="hover:underline ease-in-out duration-300 hover:text-hoverGray">INDEX
-                        </button>
-                    </a>
-                </div>
+            <div className="bg-white fixed top-0 left-0 right-0 z-50">
+                <nav className="mx-8 grid grid-cols-24 gap-x-5 font-favorit text-xs py-4">
+                    <ul className="flex flex-row col-span-12 gap-3">
+                        <li><a href="/" className="">ALEX LUOWAN</a></li>
+                        <li>—</li>
+                        <li><a href="/" className="">
+                            <button
+                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
+                            </button>
+                        </a></li>
+                        <li><a href="/" className="">
+                            <button
+                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
+                            </button>
+                        </a></li>
+                        <li><a href="/" className="">
+                            <button
+                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
+                            </button>
+                        </a></li>
+                    </ul>
+                    <div className="col-start-24">
+                        <a href="/" className="">
+                            <button
+                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6" >INDEX
+                            </button>
+                        </a>
+                    </div>
+                </nav>
             </div>
 
 
@@ -61,7 +64,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-7 mb-10">
+            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-7">
                 <a className="col-start-1 col-span-12" href="/projects/88rising">
                     <Image src="/img/88rising/88rising-thumbnail.png"
                            alt="a laptop"
