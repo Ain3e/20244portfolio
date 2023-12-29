@@ -150,7 +150,7 @@ export default function Home() {
                         as <span className="font-bold">62% of respondents were unaware of 88rising&rsquo;s monthly releases.</span> Despite
                         the consensus
                         uncovered by user surveys regarding a decline in popularity,
-                        <span className="font-bold">41% of casual fans linked it to perceived low engagement from the brand.</span>
+                        <span className="font-bold"> 41% of casual fans linked it to perceived low engagement from the brand.</span>
                         These fans expressed interest in discovering new talents and experiencing the signature sounds
                         associated with 88rising.
                     </p>
