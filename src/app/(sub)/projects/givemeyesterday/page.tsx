@@ -5,8 +5,8 @@ export default function Home() {
     return (
         <main className="antialiased gap-y-0">
             <div className="bg-white fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-24 gap-x-5 font-favorit text-base py-4">
-                    <ul className="flex flex-row col-span-12 gap-3">
+                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favorit text-xs py-4">
+                    <ul className="flex flex-row col-span-full lg:col-span-12 gap-3">
                         <li><a href="/" className="">ALEX LUOWAN</a></li>
                         <li>—</li>
                         <li><a href="/" className="">
@@ -19,7 +19,8 @@ export default function Home() {
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
                             </button>
                         </a></li>
-                        <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing" className="" target="_blank">
+                        <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing"
+                               className="" target="_blank">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
                             </button>
@@ -28,29 +29,32 @@ export default function Home() {
                     {/*<div className="col-start-24">*/}
                     {/*    <a href="/" className="">*/}
                     {/*        <button*/}
-                    {/*            className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6">INDEX*/}
+                    {/*            className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6" >INDEX*/}
                     {/*        </button>*/}
                     {/*    </a>*/}
                     {/*</div>*/}
                 </nav>
             </div>
 
+
             <Image src="/img/givemeyesterday/givemeyesterday-thumbnail.png"
                    alt="a laptop"
                    width={3075}
                    height={1672}
-                   className="w-full"
+                   className="w-full mt-10 lg:mt-0"
             >
             </Image>
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-9">
-                <div className="col-start-1 col-span-17">
-                    <h2 className="text-3xl font-eiko">
+
+            <div className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 mt-9">
+                <div className="col-start-1 col-span-6 lg:col-span-17">
+                    <h2 className="lg:text-3xl text-mobileheader1 font-eiko">
                         A pre-exhibition microsite, showcasing artworks from 14 artists for Fondazione
                         Prada&rsquo;s &ldquo;Give Me
                         Yesterday&rdquo; exhibition.
                     </h2>
                 </div>
-                <div className="col-start-20 col-span-5 font-favorit text-bodycopy row-start-1">
+                <div
+                    className="lg:col-start-20 lg:col-span-5 col-span-6 font-favorit text-bodycopy row-start-2 mt-10 lg:mt-0 lg:row-start-1">
                     <h4>
                         Contribution
                     </h4>
@@ -64,13 +68,13 @@ export default function Home() {
 
                 </div>
 
-                <hr className="col-start-1 col-span-24 border-customGray mt-8"></hr>
+                <hr className="col-start-1 col-span-full border-customGray mt-8"></hr>
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-6 md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Project Overview
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -95,9 +99,9 @@ export default function Home() {
                 </a>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid sm:grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Designer Precedent: <span className="text-customGray"> Dan Friedman </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -112,16 +116,16 @@ export default function Home() {
                        alt="a laptop"
                        width={6568}
                        height={3695}
-                       className="col-start-11 col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
                 >
                 </Image>
 
             </div>
 
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Physical Assets: <span className="text-customGray"> First Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -140,16 +144,16 @@ export default function Home() {
                        alt="a laptop"
                        width={6568}
                        height={3695}
-                       className="col-start-11 col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
                 >
                 </Image>
 
             </div>
 
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Physical Assets: <span className="text-customGray"> Second Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -168,15 +172,15 @@ export default function Home() {
                        alt="a laptop"
                        width={6568}
                        height={3695}
-                       className="col-start-11 col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
                 >
                 </Image>
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Microsite: <span className="text-customGray"> First Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -195,15 +199,15 @@ export default function Home() {
                        alt="a laptop"
                        width={6568}
                        height={3695}
-                       className="col-start-11 col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
                 >
                 </Image>
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20" id="solution">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20" id="solution">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Microsite: <span className="text-customGray"> Final Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -219,15 +223,15 @@ export default function Home() {
                        alt="a laptop"
                        width={6568}
                        height={3695}
-                       className="col-start-11 col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
                 >
                 </Image>
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Microsite: <span className="text-customGray"> Landing </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -242,7 +246,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/givemeyesterday/homepage.webm" type="video/webm"></source>
                         <source src="/video/givemeyesterday/homepage.mov" type="video/mp4"></source>
@@ -251,9 +255,9 @@ export default function Home() {
             </div>
 
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Microsite: <span className="text-customGray"> Call to Action </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -266,7 +270,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/givemeyesterday/CursorTransition.webm" type="video/webm"></source>
                         <source src="/video/givemeyesterday/CursorTransition.mov" type="video/mp4"></source>
@@ -274,9 +278,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Microsite: <span className="text-customGray"> Parallax Image Gallery </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -288,7 +292,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/givemeyesterday/finalfinalparallax.webm" type="video/webm"></source>
                         <source src="/video/givemeyesterday/finalfinalparallax.mov" type="video/mp4"></source>
@@ -296,9 +300,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Microsite: <span className="text-customGray"> Hover to View an Image in Full </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -310,7 +314,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/givemeyesterday/finalfinalscale.webm" type="video/webm"></source>
                         <source src="/video/givemeyesterday/finalfinalscale.mov" type="video/mp4"></source>
@@ -319,9 +323,9 @@ export default function Home() {
             </div>
 
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Thanks for Reading: <span className="text-customGray"> Lessons Learned  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
