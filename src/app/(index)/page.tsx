@@ -61,7 +61,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-7">
+            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-7 mb-10">
                 <a className="col-start-1 col-span-12" href="/projects/88rising">
                     <Image src="/img/88rising/88rising-thumbnail.png"
                            alt="a laptop"

@@ -4,7 +4,7 @@ import React from "react";
 export default function Home() {
     return (
         <main className="antialiased gap-y-0">
-            <div className="bg-white fixed top-0 left-0 right-0">
+            <div className="bg-white fixed top-0 left-0 right-0 z-50">
                 <nav className="mx-8 grid grid-cols-24 gap-x-5 font-favorit text-xs py-4">
                     <ul className="flex flex-row col-span-12 gap-3">
                         <li><a href="/" className="">ALEX LUOWAN</a></li>
@@ -28,7 +28,7 @@ export default function Home() {
                     <div className="col-start-24">
                         <a href="/" className="">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray">INDEX
+                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray " >INDEX
                             </button>
                         </a>
                     </div>
@@ -87,7 +87,7 @@ export default function Home() {
 
                 <a href="#solution" className="row-start-2 mt-10 col-span-4">
                     <button
-                        className="font-favorit text-base border-black outline py-3 px-10 hover:bg-black hover:text-white ease-in-out duration-300 ">
+                        className="font-favorit text-base border-black py-3 px-10 outline hover:bg-black hover:border-white hover:text-white ease-in-out duration-300 ">
                         Jump to Solution
                     </button>
                 </a>
