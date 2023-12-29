@@ -28,7 +28,7 @@ export default function Home() {
                     <div className="col-start-24">
                         <a href="/" className="">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6" >INDEX
+                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6">INDEX
                             </button>
                         </a>
                     </div>
@@ -117,11 +117,14 @@ export default function Home() {
                         Research + Framing: <span className="text-customGray"> Business Opportunity </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
-                        Despite a successful debut, they have struggled to maintain momentum, losing over 2.6 billion
-                        viewerships in the past 4 years.
-                        To find the root of the problem the team conducted user interviews and surveys involving 89
+                        Despite a successful debut, they have struggled to maintain momentum, <span
+                        className="font-bold"> losing over 2.6 billion
+                        viewerships in the past 4 years. </span>
+                        To find the root of the problem the team conducted user interviews and surveys involving <span
+                        className="font-bold">89
                         respondents spanning from casual to
-                        die-hard fans, we aimed to delve into the core issues surrounding music-sharing habits and
+                        die-hard fans</span>, we aimed to delve into the core issues surrounding music-sharing habits
+                        and
                         perceptions of 88rising and its roster
                         of artists.
                     </p>
@@ -144,9 +147,10 @@ export default function Home() {
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
                         Our findings revealed a notable lack of engagement attributed to a substantial awareness gap,
-                        as 62% of respondents were unaware of 88rising&rsquo;s monthly releases. Despite the consensus
+                        as <span className="font-bold">62% of respondents were unaware of 88rising&rsquo;s monthly releases.</span> Despite
+                        the consensus
                         uncovered by user surveys regarding a decline in popularity,
-                        41% of casual fans linked it to perceived low engagement from the brand.
+                        <span className="font-bold">41% of casual fans linked it to perceived low engagement from the brand.</span>
                         These fans expressed interest in discovering new talents and experiencing the signature sounds
                         associated with 88rising.
                     </p>
@@ -181,10 +185,10 @@ export default function Home() {
                     <p className="text-bodycopy font-favorit mt-4">
                         From a business perspective, my team and I identified that 88rising fans were struggling to
                         engage with the diverse roster
-                        and collaborative content scattered across various platforms. We proposed an intervention
+                        and collaborative content scattered across various platforms.  <span className="font-bold">We proposed an intervention
                         leveraging 88rising&rsquo;s unique Asian
                         American identity and diverse artists to enhance fan discovery, connection, and provide
-                        visibility to artists who were previously overlooked.
+                        visibility to artists who were previously overlooked.</span>
                     </p>
                 </div>
 
@@ -307,12 +311,14 @@ export default function Home() {
                         an issue like post-concert depression is applicable to any company, not just specific to
                         88rising
                         itself. Consequently, it took us 3-4 weeks to pinpoint the problem space, as my team and I aimed
-                        for perfection rather than settling for &ldquo;good enough.&rdquo; This pursuit extended the timeline until
+                        for perfection rather than settling for &ldquo;good enough.&rdquo; This pursuit extended the
+                        timeline until
                         the final three weeks when we focused on sprints, creating and refining the design.
 
                     </p>
 
-                    <p className="text-bodycopy font-favorit mt-4"> I am grateful to both my team and the teaching staff who helped me stay grounded during the
+                    <p className="text-bodycopy font-favorit mt-4"> I am grateful to both my team and the teaching staff
+                        who helped me stay grounded during the
                         challenging weeks. :)
                     </p>
                 </div>
