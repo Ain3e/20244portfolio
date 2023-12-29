@@ -89,7 +89,7 @@ export default function Home() {
 
                 <a href="#solution" className="row-start-2 mt-10 col-span-4">
                     <button
-                        className="font-favorit text-base border-black py-3 px-10 outline hover:bg-black hover:border-white hover:text-white ease-in-out duration-300 ">
+                        className="font-favorit text-base border-black py-3 px-10 outline outline-1 hover:bg-black hover:border-white hover:text-white ease-in-out duration-300 ">
                         Jump to Solution
                     </button>
                 </a>
