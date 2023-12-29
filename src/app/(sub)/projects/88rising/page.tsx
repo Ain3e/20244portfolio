@@ -5,8 +5,8 @@ export default function Home() {
     return (
         <main className="antialiased gap-y-0">
             <div className="bg-white fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-24 gap-x-5 font-favorit text-base py-4">
-                    <ul className="flex flex-row col-span-12 gap-3">
+                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favorit text-xs py-4">
+                    <ul className="flex flex-row col-span-full lg:col-span-12 gap-3">
                         <li><a href="/" className="">ALEX LUOWAN</a></li>
                         <li>—</li>
                         <li><a href="/" className="">
@@ -19,7 +19,8 @@ export default function Home() {
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
                             </button>
                         </a></li>
-                        <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing" className="" target="_blank">
+                        <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing"
+                               className="" target="_blank">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
                             </button>
@@ -28,7 +29,7 @@ export default function Home() {
                     {/*<div className="col-start-24">*/}
                     {/*    <a href="/" className="">*/}
                     {/*        <button*/}
-                    {/*            className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6">INDEX*/}
+                    {/*            className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6" >INDEX*/}
                     {/*        </button>*/}
                     {/*    </a>*/}
                     {/*</div>*/}
@@ -39,17 +40,18 @@ export default function Home() {
                    alt="a laptop"
                    width={3075}
                    height={1672}
-                   className="w-full"
+                   className="w-full mt-10 lg:mt-0"
             >
             </Image>
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-9">
-                <div className="col-start-1 col-span-17">
-                    <h2 className="text-3xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 mt-9">
+                <div className="col-start-1 col-span-6 lg:col-span-17">
+                    <h2 className="lg:text-3xl text-mobileheader1 font-eiko">
                         Reimagining 88risings website experience for fans to engage with
                         their favourite artists and stay informed.
                     </h2>
                 </div>
-                <div className="col-start-20 col-span-5 font-favorit text-bodycopy row-start-1">
+                <div
+                    className="lg:col-start-20 lg:col-span-5 col-span-6 font-favorit text-bodycopy row-start-2 mt-10 lg:mt-0 lg:row-start-1">
                     <h4>
                         Contribution
                     </h4>
@@ -62,13 +64,13 @@ export default function Home() {
 
                 </div>
 
-                <hr className="col-start-1 col-span-24 border-customGray mt-8"></hr>
+                <hr className="col-start-1 col-span-full border-customGray mt-8"></hr>
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-6 md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Project Overview
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -92,15 +94,21 @@ export default function Home() {
                     </button>
                 </a>
 
-                <Image src="/img/88rising/Vertical-line.png"
-                       alt="a laptop"
-                       width={1}
-                       height={221}
-                       className="col-start-11 col-span-1"
-                >
-                </Image>
-                <div className="col-start-12 col-span-12">
-                    <p className="text-2xl font-favorit mt-8 leading-8">
+                {/*<Image src="/img/88rising/Vertical-line.png"*/}
+                {/*       alt="a laptop"*/}
+                {/*       width={1}*/}
+                {/*       height={221}*/}
+                {/*       className="lg:col-start-11 col-span-1 invisible lg:visible"*/}
+                {/*>*/}
+                {/*</Image>*/}
+
+                <div
+                    className="border-l border-black h-48 mt-10 lg:mt-0 md:h-40 lg:h-56 col-start-1 lg:col-start-11 col-span-1">
+
+                </div>
+
+                <div className="col-start-2 lg:col-start-12 md:col-span-10 lg:col-span-12 col-span-5 -ml-5 lg:ml-0">
+                    <p className="text-mobileheader3 md:text-xl lg:text-2xl font-favorit mt-14 lg:mt-8 lg:leading-8">
                         For Asians and Asian Americans and just Asian youth globally,
                         there’s no real home on the Internet, or a company consistently
                         putting out things that either include Asian talent or Asian viewpoints in stories.
@@ -111,9 +119,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid sm:grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Research + Framing: <span className="text-customGray"> Business Opportunity </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -134,15 +142,15 @@ export default function Home() {
                        alt="a laptop"
                        width={3459}
                        height={1947}
-                       className="col-start-11 col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
                 >
                 </Image>
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Research + Framing: <span className="text-customGray"> Uncovering Engagement Gaps </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -156,15 +164,19 @@ export default function Home() {
                     </p>
                 </div>
 
-                <Image src="/img/88rising/Vertical-line.png"
-                       alt="a laptop"
-                       width={1}
-                       height={221}
-                       className="col-start-11 col-span-1"
-                >
-                </Image>
-                <div className="col-start-12 col-span-12">
-                    <p className="text-2xl font-favorit mt-8 leading-8">
+                {/*<Image src="/img/88rising/Vertical-line.png"*/}
+                {/*       alt="a laptop"*/}
+                {/*       width={1}*/}
+                {/*       height={221}*/}
+                {/*       className="col-start-11 col-span-1"*/}
+                {/*>*/}
+                {/*</Image>*/}
+                <div
+                    className="border-l border-black h-52 mt-10 lg:mt-0 md:h-40 lg:h-56 col-start-1 lg:col-start-11 col-span-1">
+
+                </div>
+                <div className="col-start-2 lg:col-start-12 md:col-span-10 lg:col-span-12 col-span-5 -ml-5 lg:ml-0">
+                    <p className="text-mobileheader3 md:text-xl lg:text-2xl font-favorit mt-14 lg:mt-8 lg:leading-8">
                         The big names seem stagnant, while many new artists lack exposure, creating an opportunity for
                         more variety.
                         This introduces people to different sounds beyond the usual big names, providing something new
@@ -177,15 +189,15 @@ export default function Home() {
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Research + Framing: <span className="text-customGray"> Framing the Problem </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
                         From a business perspective, my team and I identified that 88rising fans were struggling to
                         engage with the diverse roster
-                        and collaborative content scattered across various platforms.  <span className="font-bold">We proposed an intervention
+                        and collaborative content scattered across various platforms. <span className="font-bold">We proposed an intervention
                         leveraging 88rising&rsquo;s unique Asian
                         American identity and diverse artists to enhance fan discovery, connection, and provide
                         visibility to artists who were previously overlooked.</span>
@@ -196,15 +208,15 @@ export default function Home() {
                        alt="a laptop"
                        width={3459}
                        height={1947}
-                       className="col-start-11 col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
                 >
                 </Image>
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Result: <span className="text-customGray"> The New Fan Experience </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -216,7 +228,8 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container" id="solution">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container"
+                     id="solution">
                     <video loop className="w-full" preload="auto" controls>
                         {/*<source src="/video/88rising/demo.webm" type="video/webm"></source>*/}
                         <source src="/video/88rising/demo.mov" type="video/mp4"></source>
@@ -226,9 +239,9 @@ export default function Home() {
 
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Result: <span className="text-customGray"> Cultural Familiarity </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -238,7 +251,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/88rising/homepage.webm" type="video/webm"></source>
                         <source src="/video/88rising/homepage.mov" type="video/mp4"></source>
@@ -246,9 +259,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Result: <span className="text-customGray"> Renewed Emphasis on Collaboration  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -259,7 +272,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/88rising/collaborations.webm" type="video/webm"></source>
                         <source src="/video/88rising/collaborations.mov" type="video/mp4"></source>
@@ -267,9 +280,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Result: <span className="text-customGray"> Unique Artist Personalities  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -280,7 +293,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-11 col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/88rising/artists.webm" type="video/webm"></source>
                         <source src="/video/88rising/artists.mov" type="video/mp4"></source>
@@ -288,19 +301,42 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <Image src="/img/88rising/stakeholdervalue.png"
-                       alt="a laptop"
-                       width={4337}
-                       height={1131}
-                       className="col-start-1 col-span-full outline border-black"
-                >
-                </Image>
+            {/*<div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">*/}
+            {/*    <Image src="/img/88rising/stakeholdervalue.png"*/}
+            {/*           alt="a laptop"*/}
+            {/*           width={4337}*/}
+            {/*           height={1131}*/}
+            {/*           className="col-start-1 col-span-full outline border-black"*/}
+            {/*    >*/}
+            {/*    </Image>*/}
+            {/*</div>*/}
+
+            <div
+                className="font-favorit text-base border-black px-10 outline outline-1 mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20 py-10 lg:py-44">
+                <h3 className="text-2xl font-eiko lg:col-start-5 col-span-full lg:col-span-5 font-normal md:col-span-5">
+                    Stakeholder Value
+                </h3>
+                <h4 className="text-mobileheader2 col-start-1 col-span-full lg:text-xl font-eiko lg:col-start-5 md:col-span-4 lg:col-span-5 row-start-2 mt-5">
+                    (Business) 88rising
+                </h4>
+                <p className="text-bodycopy font-favorit mt-5 lg:mt-16 col-start-1 col-span-7 lg:col-start-5 lg:col-span-8 row-start-3 lg:row-start-2">
+                    Fostering a loyal fan base through increasing song engagements and merch sales. Highlighting lesser
+                    known artists to deepen their talent pool all while further promoting Asian American media to
+                    mainstream global audiences.
+                </p>
+                <h4 className="text-mobileheader2 col-start-1 col-span-full lg:text-xl font-eiko lg:col-start-14 md:col-span-4 lg:col-span-5 lg:row-start-2 row-start-4 mt-5">
+                    (Consumer) Fans
+                </h4>
+                <p className="text-bodycopy font-favorit mt-5 lg:mt-16 col-start-1 col-span-7 lg:col-start-14 lg:col-span-8 row-start-5 lg:row-start-2">
+                    Helps create a more diverse music & artists range through enhanced discoverability and deeper
+                    artists engagement. Fans gain an appreciation of the artist’s creativity, influences and personal
+                    experiences.
+                </p>
             </div>
 
-            <div className="mx-8 grid grid-cols-24 gap-x-5 mt-20">
-                <div className="col-start-1 col-span-9">
-                    <h3 className="text-2xl font-eiko">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
+                <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
                         Thanks for Reading: <span className="text-customGray"> Lessons Learned  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">

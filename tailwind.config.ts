@@ -31,6 +31,11 @@ const config: Config = {
         'xs': '0.65rem',
         'base': '0.75rem',
         'bodycopy': '0.875rem',
+        'mobileheader1': '1.5rem',
+        'mobileheader2': '1.25rem',
+        'mobileheader3': '1rem',
+        'mobilebodycopy': '0.875rem',
+
       },
       lineHeight: {
         'bodyPara': '1rem',  // Change the line height to your desired value
