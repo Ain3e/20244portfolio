@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <main className="antialiased gap-y-0">
             <div className="bg-white fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-24 gap-x-5 font-favorit text-xs py-4">
+                <nav className="mx-8 grid grid-cols-24 gap-x-5 font-favorit text-base py-4">
                     <ul className="flex flex-row col-span-12 gap-3">
                         <li><a href="/" className="">ALEX LUOWAN</a></li>
                         <li>—</li>
