@@ -28,7 +28,7 @@ export default function Home() {
                     <div className="col-start-24">
                         <a href="/" className="">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray " >INDEX
+                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6" >INDEX
                             </button>
                         </a>
                     </div>

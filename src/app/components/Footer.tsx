@@ -11,7 +11,7 @@ export default function Footer() {
             <h4 className="text-base text-customGray font-favorit col-start-10 col-span-4 my-4">
                 Email: aaluowan@gmail.com
             </h4>
-            <h4 className="text-base text-customGray font-favorit col-start-24 col-span-1 my-4">
+            <h4 className="text-base text-customGray font-favorit col-start-24 col-span-1 my-4 text-right">
                 2024
             </h4>
         </footer>

@@ -30,7 +30,7 @@ const config: Config = {
         '2xl': '1.5rem', //h4
         'xs': '0.65rem',
         'base': '0.75rem',
-        'bodycopy': '0.80rem',
+        'bodycopy': '0.875rem',
       },
       lineHeight: {
         'bodyPara': '1rem',  // Change the line height to your desired value
