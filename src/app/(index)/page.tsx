@@ -100,14 +100,16 @@ export default function Home() {
                     <h4 className="mt-thumbnail-top text-right">2022</h4>
                 </div>
 
+                <a className="col-start-13 col-span-12" href="/projects/givemeyesterday">
 
                 <Image src="/img/givemeyesterday/givemeyesterday-thumbnail.png"
                        alt="a laptop"
                        width={3075}
                        height={1672}
-                       className="col-start-13 col-span-12"
+                       className=""
                 >
                 </Image>
+                </a>
             </div>
 
         </main>
