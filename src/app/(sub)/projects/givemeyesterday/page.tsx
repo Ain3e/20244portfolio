@@ -157,14 +157,13 @@ export default function Home() {
                         Physical Assets: <span className="text-customGray"> Second Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
-                        When creating the initial version of our microsite, the team conducted a reassessment of our
-                        posters and assets to pinpoint the essential qualities defining our art direction. However,
-                        during the development of our microsite, it became apparent that we were experimenting with
-                        interaction
-                        design independently of our visual design. This diverge made it challenging to establish a sense
-                        of unity and articulate clear rationales for our design decisions. To tackle this issue, we
-                        sought additional precedents and contemplated how our interactions could harmonize with the
-                        qualities defining our art direction.
+                        Following the feedback received from the second week, our focus this week centered on converging
+                        and iterating to elevate our design. I conceptualized an extended banner and directional asset
+                        that aligns more closely with the artistic direction established by the poster. Our stylistic
+                        approach drew considerable influence from Radical Swiss Modernism, embracing elements such as
+                        asymmetry, restrained color palettes, and purposefully contrasting imagery. The implementation
+                        of Friedman&#39;s Typographical Scale adjustments, Tall Columns, and Superimposed images played a
+                        crucial role in achieving cohesion in the project.
                     </p>
                 </div>
 
