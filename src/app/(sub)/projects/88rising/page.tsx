@@ -231,7 +231,7 @@ export default function Home() {
 
                 <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container"
                      id="solution">
-                    <video loop className="w-full" preload="auto" controls>
+                    <video loop className="w-full" preload="auto" poster="/img/88rising/videothumbnail.png" controls>
                         {/*<source src="/video/88rising/demo.webm" type="video/webm"></source>*/}
                         <source src="/video/88rising/demo.mov" type="video/mp4"></source>
                     </video>
