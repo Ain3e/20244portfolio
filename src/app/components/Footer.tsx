@@ -8,9 +8,12 @@ export default function Footer() {
             {/*<h4 className="text-base text-customGray font-favorit invisble lg:visible lg:col-start-5 lg:col-span-4 my-4">*/}
             {/*    Made with React and Next.js*/}
             {/*</h4>*/}
-            <h4 className="text-base text-customGray font-favorit invisible md:visible lg:visible lg:col-start-10 lg:col-span-4 my-4">
-                Email: aaluowan@gmail.com
-            </h4>
+            <a href="mailto:webmaster@example.com" className="text-base text-customGray font-favorit invisible md:visible lg:visible lg:col-start-10 lg:col-span-4 my-4">
+                <h4 >
+                    Email: <span className="text-black">aluowan@sfu.ca</span>
+                </h4>
+            </a>
+
             <h4 className="text-base text-customGray font-favorit lg:col-start-24 md:col-start-12 col-start-6 lg:col-span-1 my-4 text-right">
                 2024
             </h4>

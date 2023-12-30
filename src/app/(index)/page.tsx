@@ -14,7 +14,7 @@ export default function Home() {
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
                             </button>
                         </a></li>
-                        <li><a href="/" className="">
+                        <li><a href="/about" className="">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
                             </button>
@@ -38,8 +38,8 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-40 lg:mt-home-top ">
                 <div className="col-start-1 col-span-full lg:col-span-15">
-                    <h2 className="text-mobileheader1 lg:text-3xl font-eiko text-customGray">
-                        Meet <span className="text-black"> Alex Luowan </span>, the data informed product designer
+                    <h2 className="text-mobileheader1 lg:text-3xl font-eiko text-customGray font-thin">
+                        Meet <span className="text-black font-normal"> Alex Luowan </span>, the data informed product designer
                         creating
                         compelling digital experiences
                     </h2>

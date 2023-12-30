@@ -313,11 +313,11 @@ export default function Home() {
 
             <div
                 className="font-favorit text-base border-black px-10 outline outline-1 mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20 py-10 lg:py-44">
-                <h3 className="text-2xl font-eiko lg:col-start-5 col-span-full lg:col-span-5 font-normal md:col-span-5">
+                <h3 className="text-2xl font-eiko lg:col-start-5 col-span-full lg:col-span-5 font-semibold md:col-span-5">
                     Stakeholder Value
                 </h3>
                 <h4 className="text-mobileheader2 col-start-1 col-span-full lg:text-xl font-eiko lg:col-start-5 md:col-span-4 lg:col-span-5 row-start-2 mt-5">
-                    (Business) 88rising
+                    <span className="text-customGray">(Business)</span> 88rising
                 </h4>
                 <p className="text-bodycopy font-favorit mt-5 lg:mt-16 col-start-1 col-span-7 lg:col-start-5 lg:col-span-8 row-start-3 lg:row-start-2">
                     Fostering a loyal fan base through increasing song engagements and merch sales. Highlighting lesser
@@ -325,7 +325,7 @@ export default function Home() {
                     mainstream global audiences.
                 </p>
                 <h4 className="text-mobileheader2 col-start-1 col-span-full lg:text-xl font-eiko lg:col-start-14 md:col-span-4 lg:col-span-5 lg:row-start-2 row-start-4 mt-5">
-                    (Consumer) Fans
+                    <span className="text-customGray">(Consumer)</span> Fans
                 </h4>
                 <p className="text-bodycopy font-favorit mt-5 lg:mt-16 col-start-1 col-span-7 lg:col-start-14 lg:col-span-8 row-start-5 lg:row-start-2">
                     Helps create a more diverse music & artists range through enhanced discoverability and deeper

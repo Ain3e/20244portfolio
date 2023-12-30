@@ -39,6 +39,7 @@ const config: Config = {
       },
       lineHeight: {
         'bodyPara': '1rem',  // Change the line height to your desired value
+        'aboutpage': '2.2rem',
       },
 
       gridTemplateColumns: {
