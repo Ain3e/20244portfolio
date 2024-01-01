@@ -75,7 +75,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-6 md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Project Overview
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -102,7 +102,7 @@ export default function Home() {
 
             <div className="mx-8 grid sm:grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Designer Precedent: <span className="text-customGray"> Dan Friedman </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -126,7 +126,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Physical Assets: <span className="text-customGray"> First Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -154,7 +154,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Physical Assets: <span className="text-customGray"> Second Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -180,7 +180,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Microsite: <span className="text-customGray"> First Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -207,7 +207,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20" id="solution">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Microsite: <span className="text-customGray"> Final Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -231,7 +231,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Microsite: <span className="text-customGray"> Landing </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -257,7 +257,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Microsite: <span className="text-customGray"> Call to Action </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -280,7 +280,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Microsite: <span className="text-customGray"> Parallax Image Gallery </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -302,7 +302,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Microsite: <span className="text-customGray"> Hover to View an Image in Full </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -325,7 +325,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Thanks for Reading: <span className="text-customGray"> Lessons Learned  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">

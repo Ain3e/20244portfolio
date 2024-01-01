@@ -337,7 +337,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Thanks for Reading: <span className="text-customGray"> Lessons Learned  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
