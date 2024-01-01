@@ -10,11 +10,6 @@ const eiko = localFont({
       weight: '100',
       style: 'normal'
     },
-    {
-      path: './../fonts/eiko/PPEiko-Regular.woff',
-      weight: '400',
-      style: 'normal'
-    },
   ],
   variable: '--font-eiko'
 })
