@@ -71,7 +71,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-6 md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Project Overview
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -122,7 +122,7 @@ export default function Home() {
 
             <div className="mx-8 grid sm:grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Research + Framing: <span className="text-customGray"> Business Opportunity </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -151,7 +151,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Research + Framing: <span className="text-customGray"> Uncovering Engagement Gaps </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -192,7 +192,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Research + Framing: <span className="text-customGray"> Framing the Problem </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -217,7 +217,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Result: <span className="text-customGray"> The New Fan Experience </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -242,7 +242,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Result: <span className="text-customGray"> Cultural Familiarity </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -262,7 +262,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Result: <span className="text-customGray"> Renewed Emphasis on Collaboration  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -283,7 +283,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
                         Result: <span className="text-customGray"> Unique Artist Personalities  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
