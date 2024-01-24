@@ -5,27 +5,34 @@ export default function Home() {
     return (
         <main className="antialiased gap-y-0">
             <div className="bg-white fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favorit text-xs py-4">
-                    <ul className="flex flex-row col-span-full lg:col-span-12 gap-3">
-                        <li><a href="/" className="">ALEX LUOWAN</a></li>
-                        <li>—</li>
+                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favoritmono text-xs py-4">
+                    <div className="col-start-1 row-start-1 col-span-full">
+                        <a href="/" className="">ALEX LUOWAN</a>
+                    </div>
+                    <ul className="flex flex-row col-span-full col-start-22 row-start-1">
+                        <li></li>
                         <li><a href="/" className="">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
                             </button>
                         </a></li>
-                        <li><a href="/about" className="">
+                        <li><a href="/about" className="gap-3">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
                             </button>
                         </a></li>
                         <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing"
-                               className="" target="_blank">
+                               className="gap-3" target="_blank">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
                             </button>
                         </a></li>
                     </ul>
+                    <div className="col-span-5 col-start-8 row-start-1">
+                        <p>INTERACTION/PRODUCT DESIGNER</p>
+                    </div>
+
+                    <hr className="col-start-1 col-span-full mt-4"></hr>
                     {/*<div className="col-start-24">*/}
                     {/*    <a href="/" className="">*/}
                     {/*        <button*/}
@@ -36,32 +43,30 @@ export default function Home() {
                 </nav>
             </div>
 
-            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-40 lg:mt-home-top ">
-                <div className="col-start-1 col-span-full lg:col-span-15">
-                    <h2 className="text-mobileheader1 lg:text-3xl font-eiko text-customGray font-thin">
-                        Meet <span className="text-black font-normal"> Alex Luowan </span>, the data informed product designer
-                        creating
-                        compelling digital experiences
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-40 lg:mt-8 ">
+                <div className="col-start-1 col-span-8">
+                    <h2 className="text-3xl font-favorit text-black ">
+                        A data informed product designer creating compelling digital experiences
                     </h2>
                 </div>
 
-                <div className="col-start-1 col-span-full mt-12">
-                    <div>
-                        <div className="flex flex-row gap-2">
-                            <h4 className="text-bodycopy font-favorit">
-                                Featured Works
-                            </h4>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"
-                                 fill="none"
-                                 className="mt-0.5">
-                                <path d="M6 2L6 10M6 10L3 7M6 10L9 7" stroke="black" stroke-width="0.75"
-                                      stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
+                {/*<div className="col-start-1 col-span-full mt-12">*/}
+                {/*    <div>*/}
+                {/*        <div className="flex flex-row gap-2">*/}
+                {/*            <h4 className="text-bodycopy font-favorit">*/}
+                {/*                Featured Works*/}
+                {/*            </h4>*/}
+                {/*            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"*/}
+                {/*                 fill="none"*/}
+                {/*                 className="mt-0.5">*/}
+                {/*                <path d="M6 2L6 10M6 10L3 7M6 10L9 7" stroke="black" stroke-width="0.75"*/}
+                {/*                      stroke-linecap="round" stroke-linejoin="round"/>*/}
+                {/*            </svg>*/}
+                {/*        </div>*/}
 
-                        <hr className="bg-black mt-3 border-1 border-black"></hr>
-                    </div>
-                </div>
+                {/*        <hr className="bg-black mt-3 border-1 border-black"></hr>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-7">

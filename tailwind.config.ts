@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         eiko: ['var(--font-eiko)'],
         favorit: ['var(--font-favorit)'],
+        favoritmono: ['var(--font-favoritmono)'],
       },
       colors: {
         customGray: '#7C7C7C',

@@ -17,13 +17,25 @@ const eiko = localFont({
 const favorit = localFont({
   src: [
     {
-      path: './../fonts/favoritpro/FavoritPro-Light.woff',
-      weight: '300',
+      path: './../fonts/favoritpro/FavoritPro-Regular.woff',
+      weight: '400',
       style: 'normal'
     },
   ],
   variable: '--font-favorit'
 })
+
+const favoritmono = localFont({
+  src: [
+    {
+      path: './../fonts/favoritmono/FavoritMonoStd-Light.woff',
+      weight: '300',
+      style: 'normal'
+    },
+  ],
+  variable: '--font-favoritmono'
+})
+
 
 export const metadata: Metadata = {
   title: 'Alex Luowan',
@@ -37,7 +49,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${eiko.variable} ${favorit.variable} text-black`}>{children}<Footer></Footer></body>
+      <body className={`${eiko.variable} ${favorit.variable} ${favoritmono.variable} text-black`}>{children}<Footer></Footer></body>
 
     </html>
   )
