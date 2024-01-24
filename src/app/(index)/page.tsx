@@ -77,13 +77,13 @@ export default function Home() {
 
 
                 <div  className="col-start-1 col-span-6 mt-32">
-                    <div className="font-favoritmono text-xs flex flex-row">
+                    <div className="font-favoritmono text-base flex flex-row">
                         <Clock/>
                     </div>
 
                 </div>
                 <div className="col-start-1 col-span-full">
-                    <h4 className="font-favoritmono text-xs mt-8">SELECTED PROJECTS</h4>
+                    <h4 className="font-favoritmono text-base mt-8">SELECTED PROJECTS</h4>
                     <hr className="bg-black mt-3 border-1 border-black"></hr>
                 </div>
             </div>
