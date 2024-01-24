@@ -99,20 +99,20 @@ export default function Home() {
                     >
                     </Image>
                 </a>
-                <div className="col-start-1 row-start-2 font-favorit text-bodycopy col-span-3 lg:col-span-4 ">
+                <div className="col-start-1 row-start-2 font-favorit text-xl col-span-3 lg:col-span-4 ">
                     <h4 className="mt-thumbnail-top">88rising</h4>
-                    <h4 className="-mt-1 text-customGray ">Experience Design</h4>
+                    {/*<h4 className="-mt-1 text-customGray ">Experience Design</h4>*/}
                 </div>
                 <div
                     className="lg:col-start-6 row-start-2 font-favorit text-bodycopy lg:col-span-6 invisible lg:visible">
-                    <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A transformed digital
-                        interface to
-                        help fans
-                        to explore and uplift emerging artists</h4>
+                    {/*<h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A transformed digital*/}
+                    {/*    interface to*/}
+                    {/*    help fans*/}
+                    {/*    to explore and uplift emerging artists</h4>*/}
                 </div>
                 <div
-                    className="col-start-6 md:col-start-12 lg:col-start-12 row-start-2 font-favorit text-bodycopy lg:col-span-1">
-                    <h4 className="mt-thumbnail-top text-right">2023</h4>
+                    className="col-start-6 md:col-start-12 lg:col-start-7 row-start-2 font-favoritmono text-bodycopy lg:col-span-6">
+                    <h4 className="mt-thumbnail-top text-right">2023 - EXPERIENCE DESIGN</h4>
                 </div>
 
                 <div
