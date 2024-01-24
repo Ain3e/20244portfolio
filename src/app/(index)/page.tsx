@@ -1,28 +1,34 @@
 import Image from 'next/image'
 import React from "react";
+import Clock from "@/app/components/Clock";
+import AnimatedCursor from "react-animated-cursor"
+
 
 export default function Home() {
     return (
         <main className="antialiased gap-y-0">
+            {/*<div className="App">*/}
+            {/*    <AnimatedCursor />*/}
+            {/*</div>*/}
             <div className="bg-white fixed top-0 left-0 right-0 z-50">
                 <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favoritmono text-xs py-4">
                     <div className="col-start-1 row-start-1 col-span-full">
                         <a href="/" className="">ALEX LUOWAN</a>
                     </div>
-                    <ul className="flex flex-row col-span-full col-start-22 row-start-1">
+                    <ul className="flex flex-row col-span-full col-start-22 row-start-1 justify-end">
                         <li></li>
-                        <li><a href="/" className="">
+                        <li><a href="/" className="px-3">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
                             </button>
                         </a></li>
-                        <li><a href="/about" className="gap-3">
+                        <li><a href="/about" className="px-3">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
                             </button>
                         </a></li>
                         <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing"
-                               className="gap-3" target="_blank">
+                               className="pl-3" target="_blank">
                             <button
                                 className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
                             </button>
@@ -67,7 +73,17 @@ export default function Home() {
                 {/*        <hr className="bg-black mt-3 border-1 border-black"></hr>*/}
                 {/*    </div>*/}
                 {/*</div>*/}
-                <div  className="col-start-1 col-span-full mt-56">
+
+
+
+                <div  className="col-start-1 col-span-6 mt-32">
+                    <div className="font-favoritmono text-xs flex flex-row">
+                        <Clock/>
+                    </div>
+
+                </div>
+                <div className="col-start-1 col-span-full">
+                    <h4 className="font-favoritmono text-xs mt-8">SELECTED PROJECTS</h4>
                     <hr className="bg-black mt-3 border-1 border-black"></hr>
                 </div>
             </div>
