@@ -152,7 +152,7 @@ export default function Home() {
                 </div>
                 <div
                     className="col-start-6 md:col-start-12 lg:col-start-7 row-start-2 font-favoritmono text-base lg:col-span-6">
-                    <h4 className="mt-thumbnail-top text-right">2023 - INTERACTION DESIGN/ART DIRECTION</h4>
+                    <h4 className="mt-thumbnail-top text-right">2023 - INTERACTION DESIGN, ART DIRECTION</h4>
                 </div>
 
                 <div
