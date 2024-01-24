@@ -43,9 +43,9 @@ export default function Home() {
                 </nav>
             </div>
 
-            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-40 lg:mt-8 ">
-                <div className="col-start-1 col-span-8">
-                    <h2 className="text-3xl font-favorit text-black ">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-40 lg:mt-16 ">
+                <div className="col-start-1 col-span-10">
+                    <h2 className="text-3xl font-favorit text-black leading-9	">
                         A data informed product designer creating compelling digital experiences
                     </h2>
                 </div>
@@ -67,7 +67,12 @@ export default function Home() {
                 {/*        <hr className="bg-black mt-3 border-1 border-black"></hr>*/}
                 {/*    </div>*/}
                 {/*</div>*/}
+                <div  className="col-start-1 col-span-full mt-56">
+                    <hr className="bg-black mt-3 border-1 border-black"></hr>
+                </div>
             </div>
+
+
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-7">
                 <a className="col-start-1 col-span-full lg:col-span-12" href="/projects/88rising">
@@ -82,27 +87,32 @@ export default function Home() {
                     <h4 className="mt-thumbnail-top">88rising</h4>
                     <h4 className="-mt-1 text-customGray ">Experience Design</h4>
                 </div>
-                <div className="lg:col-start-6 row-start-2 font-favorit text-bodycopy lg:col-span-6 invisible lg:visible">
+                <div
+                    className="lg:col-start-6 row-start-2 font-favorit text-bodycopy lg:col-span-6 invisible lg:visible">
                     <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A transformed digital
                         interface to
                         help fans
                         to explore and uplift emerging artists</h4>
                 </div>
-                <div className="col-start-6 md:col-start-12 lg:col-start-12 row-start-2 font-favorit text-bodycopy lg:col-span-1">
+                <div
+                    className="col-start-6 md:col-start-12 lg:col-start-12 row-start-2 font-favorit text-bodycopy lg:col-span-1">
                     <h4 className="mt-thumbnail-top text-right">2023</h4>
                 </div>
 
-                <div className="lg:col-start-13 col-start-1 col-span-4 row-start-5 lg:row-start-2 font-favorit text-bodycopy lg:col-span-6">
+                <div
+                    className="lg:col-start-13 col-start-1 col-span-4 row-start-5 lg:row-start-2 font-favorit text-bodycopy lg:col-span-6">
                     <h4 className="mt-thumbnail-top">Give Me Yesterday</h4>
                     <h4 className="-mt-1 text-customGray">Interaction Design, Art Direction</h4>
                 </div>
 
-                <div className="lg:col-start-18 row-start-2 font-favorit text-bodycopy lg:col-span-6 invisible lg:visible">
+                <div
+                    className="lg:col-start-18 row-start-2 font-favorit text-bodycopy lg:col-span-6 invisible lg:visible">
                     <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A compelling online preview for an
                         upcoming
                         exhibition, enticing visitors to experience the works in person.</h4>
                 </div>
-                <div className="lg:col-start-24 md:col-start-12 col-start-6 row-start-5 lg:row-start-2 font-favorit text-bodycopy col-span-1">
+                <div
+                    className="lg:col-start-24 md:col-start-12 col-start-6 row-start-5 lg:row-start-2 font-favorit text-bodycopy col-span-1">
                     <h4 className="mt-thumbnail-top text-right">2022</h4>
                 </div>
 
