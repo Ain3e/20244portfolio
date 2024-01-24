@@ -116,20 +116,20 @@ export default function Home() {
                 </div>
 
                 <div
-                    className="lg:col-start-13 col-start-1 col-span-4 row-start-5 lg:row-start-2 font-favorit text-bodycopy lg:col-span-6">
-                    <h4 className="mt-thumbnail-top">Give Me Yesterday</h4>
-                    <h4 className="-mt-1 text-customGray">Interaction Design, Art Direction</h4>
+                    className="lg:col-start-13 col-start-1 col-span-4 row-start-5 lg:row-start-2 font-favorit text-xl lg:col-span-6">
+                    <h4 className="mt-1">Give Me Yesterday</h4>
+                    <h4 className="-mt-1 text-customGray"></h4>
                 </div>
 
+                {/*<div*/}
+                {/*    className="lg:col-start-18 row-start-2 font-favorit text-bodycopy lg:col-span-6 invisible lg:visible">*/}
+                {/*    <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A compelling online preview for an*/}
+                {/*        upcoming*/}
+                {/*        exhibition, enticing visitors to experience the works in person.</h4>*/}
+                {/*</div>*/}
                 <div
-                    className="lg:col-start-18 row-start-2 font-favorit text-bodycopy lg:col-span-6 invisible lg:visible">
-                    <h4 className="text-customGray mt-thumbnail-top leading-bodyPara">A compelling online preview for an
-                        upcoming
-                        exhibition, enticing visitors to experience the works in person.</h4>
-                </div>
-                <div
-                    className="lg:col-start-24 md:col-start-12 col-start-6 row-start-5 lg:row-start-2 font-favorit text-bodycopy col-span-1">
-                    <h4 className="mt-thumbnail-top text-right">2022</h4>
+                    className="lg:col-start-18 md:col-start-12 col-start-6 row-start-5 lg:row-start-2 font-favoritmono text-base col-span-7">
+                    <h4 className="mt-thumbnail-top text-right">2022 - INTERACTION DESIGN, ART DIRECTION</h4>
                 </div>
 
                 <a className="col-start-1 col-span-full -mt-36 lg:mt-0 lg:col-start-13 lg:col-span-12 "
