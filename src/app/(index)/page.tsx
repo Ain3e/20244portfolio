@@ -11,7 +11,7 @@ export default function Home() {
             {/*    <AnimatedCursor />*/}
             {/*</div>*/}
             <div className="bg-white fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favoritmono text-xs py-4">
+                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favoritmono text-base py-4">
                     <div className="col-start-1 row-start-1 col-span-full">
                         <a href="/" className="">ALEX LUOWAN</a>
                     </div>
@@ -100,7 +100,7 @@ export default function Home() {
                     </Image>
                 </a>
                 <div className="col-start-1 row-start-2 font-favorit text-xl col-span-3 lg:col-span-4 ">
-                    <h4 className="mt-thumbnail-top">88rising</h4>
+                    <h4 className="mt-1">88rising</h4>
                     {/*<h4 className="-mt-1 text-customGray ">Experience Design</h4>*/}
                 </div>
                 <div
@@ -111,7 +111,7 @@ export default function Home() {
                     {/*    to explore and uplift emerging artists</h4>*/}
                 </div>
                 <div
-                    className="col-start-6 md:col-start-12 lg:col-start-7 row-start-2 font-favoritmono text-bodycopy lg:col-span-6">
+                    className="col-start-6 md:col-start-12 lg:col-start-7 row-start-2 font-favoritmono text-base lg:col-span-6">
                     <h4 className="mt-thumbnail-top text-right">2023 - EXPERIENCE DESIGN</h4>
                 </div>
 
