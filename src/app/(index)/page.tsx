@@ -56,26 +56,6 @@ export default function Home() {
                     </h2>
                 </div>
 
-                {/*<div className="col-start-1 col-span-full mt-12">*/}
-                {/*    <div>*/}
-                {/*        <div className="flex flex-row gap-2">*/}
-                {/*            <h4 className="text-bodycopy font-favorit">*/}
-                {/*                Featured Works*/}
-                {/*            </h4>*/}
-                {/*            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"*/}
-                {/*                 fill="none"*/}
-                {/*                 className="mt-0.5">*/}
-                {/*                <path d="M6 2L6 10M6 10L3 7M6 10L9 7" stroke="black" stroke-width="0.75"*/}
-                {/*                      stroke-linecap="round" stroke-linejoin="round"/>*/}
-                {/*            </svg>*/}
-                {/*        </div>*/}
-
-                {/*        <hr className="bg-black mt-3 border-1 border-black"></hr>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-
-
-
                 <div  className="col-start-1 col-span-6 mt-32">
                     <div className="font-favoritmono text-base flex flex-row">
                         <Clock/>
