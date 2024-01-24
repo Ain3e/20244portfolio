@@ -79,7 +79,7 @@ export default function Home() {
                     >
                     </Image>
                 </a>
-                <hr className="col-start-1 col-span-12 mt-1 border-black">
+                <hr className="col-start-1 col-span-12 border-black">
                 </hr>
                 <div className="col-start-1 row-start-2 font-favorit text-xl col-span-3 lg:col-span-4 ">
                     <h4 className="mt-1">88rising</h4>
@@ -125,7 +125,7 @@ export default function Home() {
                     >
                     </Image>
                 </a>
-                <hr className="col-start-13 col-span-12 mt-1 border-black">
+                <hr className="col-start-13 col-span-12 border-black">
                 </hr>
             </div>
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-7">
@@ -137,7 +137,7 @@ export default function Home() {
                     >
                     </Image>
                 </a>
-                <hr className="col-start-1 col-span-12 mt-1 border-black">
+                <hr className="col-start-1 col-span-12 border-black">
                 </hr>
                 <div className="col-start-1 row-start-2 font-favorit text-xl col-span-3 lg:col-span-5 ">
                     <h4 className="mt-1">Dutch Design Awards</h4>
@@ -183,7 +183,7 @@ export default function Home() {
                     >
                     </Image>
                 </a>
-                <hr className="col-start-13 col-span-12 mt-1 border-black">
+                <hr className="col-start-13 col-span-12 border-black">
                 </hr>
             </div>
 
