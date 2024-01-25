@@ -10,27 +10,27 @@ export default function Home() {
             {/*<div className="App">*/}
             {/*    <AnimatedCursor />*/}
             {/*</div>*/}
-            <div className="bg-white fixed top-0 left-0 right-0 z-50">
+            <div className="bg-dirtywhitebg fixed top-0 left-0 right-0 z-50">
                 <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favoritmono text-base py-4">
                     <div className="col-start-1 row-start-1 col-span-full">
                         <a href="/" className="">ALEX LUOWAN</a>
                     </div>
-                    <ul className="flex flex-row col-span-full col-start-22 row-start-1 justify-end">
+                    <ul className="flex flex-row col-span-full col-start-22 row-start-1 justify-end -mt-1">
                         <li></li>
                         <li><a href="/" className="px-3">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
+                                className="hover:border-orangehighlight hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight border text-black bg-orangehighlight px-3 py-1 outline border-black outline-0">WORK
                             </button>
                         </a></li>
                         <li><a href="/about" className="px-3">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
+                                className="hover:border-orangehighlight hover:outline hover:outline-1 hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight text-black px-3 py-1">ABOUT
                             </button>
                         </a></li>
                         <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing"
                                className="pl-3" target="_blank">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
+                                className="hover:border-orangehighlight hover:outline hover:outline-1 hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight text-black px-3 py-1">RESUME
                             </button>
                         </a></li>
                     </ul>
@@ -38,7 +38,7 @@ export default function Home() {
                         <p>INTERACTION/PRODUCT DESIGNER</p>
                     </div>
 
-                    <hr className="col-start-1 col-span-full mt-4"></hr>
+                    {/*<hr className="col-start-1 col-span-full mt-4"></hr>*/}
                     {/*<div className="col-start-24">*/}
                     {/*    <a href="/" className="">*/}
                     {/*        <button*/}

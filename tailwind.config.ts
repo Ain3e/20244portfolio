@@ -21,6 +21,8 @@ const config: Config = {
       colors: {
         customGray: '#7C7C7C',
         hoverGray: '#CCCCCC',
+        orangehighlight: '#EC6A39',
+        dirtywhitebg: '#EFEFEF',
 
       },
       fontSize: {
