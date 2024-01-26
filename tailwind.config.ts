@@ -17,6 +17,8 @@ const config: Config = {
         eiko: ['var(--font-eiko)'],
         favorit: ['var(--font-favorit)'],
         favoritmono: ['var(--font-favoritmono)'],
+        montreal: ['var(--font-montreal)'],
+
       },
       colors: {
         customGray: '#7C7C7C',
