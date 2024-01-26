@@ -21,7 +21,7 @@ const Clock: React.FC = () => {
 
     return (
         <div>
-            <h1 className="border-black border p-1">ITS CURRENTLY {currentTime} IN VANCOUVER, BC</h1>
+            <h1 className="">ITS CURRENTLY {currentTime} IN VANCOUVER, BC</h1>
         </div>
     );
 };
