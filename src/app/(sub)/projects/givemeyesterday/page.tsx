@@ -1,9 +1,13 @@
 import Image from 'next/image';
 import React from "react";
+import AnimatedCursor from "react-animated-cursor";
 
 export default function Home() {
     return (
         <main className="antialiased gap-y-0">
+            <div className="App invisible lg:visible md:visible">
+                <AnimatedCursor />
+            </div>
             <title>Give Me Yesterday</title>
             <div className="bg-dirtywhitebg fixed top-0 left-0 right-0 z-50">
                 <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-4 md:mb-0 lg:mb-0">
