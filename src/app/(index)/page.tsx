@@ -11,7 +11,7 @@ export default function Home() {
             {/*    <AnimatedCursor />*/}
             {/*</div>*/}
             <div className="bg-dirtywhitebg fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-8 md:mb-0 lg:mb-0">
+                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-4 md:mb-0 lg:mb-0">
                     <div className="col-start-1 row-start-1 col-span-2 lg:col-span-4">
                         <a href="/" className="">ALEX LUOWAN</a>
                     </div>
