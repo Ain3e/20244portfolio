@@ -5,35 +5,33 @@ export default function Home() {
     return (
         <main className="antialiased gap-y-0">
             <title>Give Me Yesterday</title>
-            <div className="bg-white fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 font-favorit text-xs py-4">
-                    <ul className="flex flex-row col-span-full lg:col-span-12 gap-3">
-                        <li><a href="/" className="">ALEX LUOWAN</a></li>
-                        <li>—</li>
-                        <li><a href="/" className="">
+            <div className="bg-dirtywhitebg fixed top-0 left-0 right-0 z-50">
+                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-8 md:mb-0 lg:mb-0">
+                    <div className="col-start-1 row-start-1 col-span-2 lg:col-span-4">
+                        <a href="/" className="">ALEX LUOWAN</a>
+                    </div>
+                    <ul className="flex flex-row col-span-3 lg:col-start-22 md:col-start-10 row-start-1 justify-end -mt-1 col-start-4">
+                        <li></li>
+                        <li><a href="/" className="px-3">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray text-customGray underline">WORK
+                                className="hover:border-orangehighlight hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight border text-black bg-orangehighlight px-3 py-1 outline border-black outline-0">WORK
                             </button>
                         </a></li>
-                        <li><a href="/" className="">
+                        <li><a href="/about" className="px-3">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray">ABOUT
+                                className="hover:border-orangehighlight hover:outline hover:outline-1 hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight text-black px-3 py-1">ABOUT
                             </button>
                         </a></li>
                         <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing"
-                               className="" target="_blank">
+                               className="pl-3" target="_blank">
                             <button
-                                className="hover:underline ease-in-out duration-300 hover:text-hoverGray">RESUME
+                                className="hover:border-orangehighlight hover:outline hover:outline-1 hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight text-black px-3 py-1">RESUME
                             </button>
                         </a></li>
                     </ul>
-                    {/*<div className="col-start-24">*/}
-                    {/*    <a href="/" className="">*/}
-                    {/*        <button*/}
-                    {/*            className="hover:underline ease-in-out duration-300 hover:text-hoverGray ml-6" >INDEX*/}
-                    {/*        </button>*/}
-                    {/*    </a>*/}
-                    {/*</div>*/}
+                    <div className="lg:col-span-5 md:col-span-5 lg:col-start-9 row-start-1 md:col-start-4 invisible md:visible lg:visible">
+                        <p>INTERACTION/PRODUCT DESIGNER</p>
+                    </div>
                 </nav>
             </div>
 
@@ -46,25 +44,25 @@ export default function Home() {
             >
             </Image>
 
-            <div className="mx-8 grid grid-cols-6 lg:grid-cols-24 gap-x-5 mt-9">
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-9">
                 <div className="col-start-1 col-span-6 lg:col-span-17">
-                    <h2 className="lg:text-3xl text-mobileheader1 font-eiko">
+                    <h2 className="lg:text-3xl text-mobileheader1 font-montreal">
                         A pre-exhibition microsite, showcasing artworks from 14 artists for Fondazione
                         Prada&rsquo;s &ldquo;Give Me
                         Yesterday&rdquo; exhibition.
                     </h2>
                 </div>
                 <div
-                    className="lg:col-start-20 lg:col-span-5 col-span-6 font-favorit text-bodycopy row-start-2 mt-10 lg:mt-0 lg:row-start-1">
+                    className="lg:col-start-20 lg:col-span-5 col-span-6 font-favoritmono text-bodycopy row-start-2 mt-10 lg:mt-0 lg:row-start-1 text-orangehighlight">
                     <h4>
-                        Contribution
+                        CONTRIBUTION
                     </h4>
-                    <p className="mt-1 text-customGray">Art Direction, UI Designer , Researcher,
+                    <p className="mt-1 text-black font-favorit">Art Direction, UI Designer , Researcher,
                         Decision Maker</p>
                     <h4 className="mt-4">
-                        Credits
+                        CREDITS
                     </h4>
-                    <p className="mt-1 text-customGray">Jasper Precilla, Sam Newaz, Karishma Sen, Claret
+                    <p className="mt-1 text-black font-favorit">Jasper Precilla, Sam Newaz, Karishma Sen, Claret
                         Egwim-Nwagbara </p>
 
                 </div>
@@ -75,7 +73,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-6 md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Project Overview
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -94,7 +92,7 @@ export default function Home() {
 
                 <a href="#solution" className="row-start-2 mt-10 col-span-4">
                     <button
-                        className="font-favorit text-base border-black py-3 px-10 outline outline-1 hover:bg-black hover:border-white hover:text-white ease-in-out duration-300 ">
+                        className="font-favorit text-base border-black py-3 px-10 outline outline-1 hover:bg-orangehighlight hover:border-white hover:text-black ease-in-out duration-300 ">
                         Jump to Solution
                     </button>
                 </a>
@@ -102,7 +100,7 @@ export default function Home() {
 
             <div className="mx-8 grid sm:grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Designer Precedent: <span className="text-customGray"> Dan Friedman </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -126,7 +124,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Physical Assets: <span className="text-customGray"> First Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -154,7 +152,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Physical Assets: <span className="text-customGray"> Second Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -180,7 +178,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Microsite: <span className="text-customGray"> First Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -207,7 +205,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20" id="solution">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Microsite: <span className="text-customGray"> Final Iteration </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -231,7 +229,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Microsite: <span className="text-customGray"> Landing </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -257,7 +255,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Microsite: <span className="text-customGray"> Call to Action </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -280,7 +278,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Microsite: <span className="text-customGray"> Parallax Image Gallery </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -302,7 +300,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Microsite: <span className="text-customGray"> Hover to View an Image in Full </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
@@ -325,7 +323,7 @@ export default function Home() {
 
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
-                    <h3 className="text-mobileheader2 lg:text-2xl font-eiko font-semibold">
+                    <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
                         Thanks for Reading: <span className="text-customGray"> Lessons Learned  </span>
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
