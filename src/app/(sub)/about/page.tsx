@@ -4,8 +4,8 @@ import AnimatedCursor from "react-animated-cursor";
 
 export default function Home() {
     return (
-        <main className="antialiased gap-y-0 invisible lg:visible md:visible">
-            <div className="App">
+        <main className="antialiased gap-y-0">
+            <div className="App invisible lg:visible md:visible">
                 <AnimatedCursor />
             </div>
             <title>About Me</title>
