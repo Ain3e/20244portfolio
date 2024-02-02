@@ -26,7 +26,7 @@ export default function Home() {
                                 className="hover:border-orangehighlight hover:outline hover:outline-1 hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight text-black px-3 py-1">ABOUT
                             </button>
                         </a></li>
-                        <li><a href="https://drive.google.com/file/d/1cDINhKrYRQcKnyS8bgtY_3AvWAg-Hyun/view?usp=sharing"
+                        <li><a href="https://drive.google.com/file/d/1NKzGeWxXDUfjf4Nm03pd0bN0vSfPW-DF/view?usp=sharing"
                                className="pl-3" target="_blank">
                             <button
                                 className="hover:border-orangehighlight hover:outline hover:outline-1 hover:bg-dirtywhitebg ease-in-out duration-300 hover:text-orangehighlight text-black px-3 py-1">RESUME
