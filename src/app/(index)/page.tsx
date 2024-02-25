@@ -159,6 +159,107 @@ export default function Home() {
                             >
                             </Image>
                 </a>
+                <div className="col-start-1 col-span-full">
+                    <hr className="bg-black mt-3 border-1 border-black "></hr>
+                </div>
+            </div>
+
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-2 ">
+
+                <div className="col-start-1 col-span-2 md:col-span-3 lg:col-span-4">
+                    <h4 className="font-favoritmono text-base mb-3 ">BMW</h4>
+                </div>
+                <div className="lg:col-start-9 md:col-start-4 col-span-2">
+                    <h4 className="font-favoritmono text-base  ">2023</h4>
+                </div>
+                <div className="lg:col-start-12 md:col-start-8 col-start-5 lg:col-span-8 md:col-span-5 col-span-2">
+                    <h4 className="font-favoritmono text-base   ">INTERACTION DESIGN, UX RESEARCH</h4>
+                </div>
+
+                {/*<div className="col-start-1 row-start-2 col-span-6 md:col-span-6 lg:col-span-8 ">*/}
+                {/*    <h4 className="font-montreal text-2.5xl md:text-3xl lg:text-3xl">02/ Give Me Yesterday</h4>*/}
+                {/*    <p className="font-favorit text-mobilebodycopy mt-5">A compelling online preview for an upcoming exhibition, enticing visitors to experience the works in person.</p>*/}
+
+                {/*</div>*/}
+
+                {/*<div className="col-start-1 col-span-6 row-start-2 ">*/}
+                {/*</div>*/}
+
+                <div className="col-start-1 col-span-6 row-start-2  ">
+                    <h4 className="font-montreal text-2.5xl md:text-3xl lg:text-3xl">03/ Brian Jessel BMW</h4>
+                </div>
+
+                <div className="col-start-1 col-span-6 row-start-2 mt-12">
+                    <p className="font-favorit text-mobilebodycopy">A gift voucher offering an unforgettable touchpoint for customers, defining the essence of Brian Jessel BMW.</p>
+                </div>
+
+                <div className="row-start-2 mt-28 col-span-5 col-start-1">
+                    <a href="/projects/brianjesselbmw" >
+                        <button
+                            className="font-favorit text-base border-black py-3 px-16 outline outline-1 hover:bg-orangehighlight hover:border-white hover:text-black ease-in-out duration-300 lg:visible md:visible invisible lg:mt-5">
+                            Read More
+                        </button>
+                    </a>
+
+                </div>
+
+
+                <a className="col-start-1 col-span-full lg:col-span-16 lg:col-start-9 lg:row-start-2 -mt-8 md:mt-5 lg:mt-0"
+                   href="/projects/givemeyesterday">
+                    <Image src="/img/brianjesselbmw/brian_jessel_bmw_thumbnail.png"
+                           alt="a laptop"
+                           width={3075}
+                           height={1672}
+                           className=""
+                    >
+                    </Image>
+                </a>
+
+                <div className="col-start-1 col-span-full">
+                    <hr className="bg-black mt-3 border-1 border-black "></hr>
+                </div>
+            </div>
+
+            <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-2 ">
+
+                <div className="col-start-1 col-span-2 md:col-span-3 lg:col-span-4">
+                    <h4 className="font-favoritmono text-base mb-3 ">OPTIONS FOR SEXUAL HEALTH</h4>
+                </div>
+                <div className="lg:col-start-9 md:col-start-4 col-span-2">
+                    <h4 className="font-favoritmono text-base  ">2023</h4>
+                </div>
+                <div className="lg:col-start-12 md:col-start-8 col-start-5 lg:col-span-8 md:col-span-5 col-span-2">
+                    <h4 className="font-favoritmono text-base   ">UX HACKATHON</h4>
+                </div>
+
+                <div className="col-start-1 col-span-9 row-start-2  ">
+                    <h4 className="font-montreal text-2.5xl md:text-3xl lg:text-3xl">04/ OptionsForSexualHealth.org</h4>
+                </div>
+
+                <div className="col-start-1 col-span-6 row-start-2 mt-12">
+                    <p className="font-favorit text-mobilebodycopy">A web intervention for Options for Sexual Health aims to offer an efficient online platform for users seeking sexual health information.</p>
+                </div>
+
+                <div className="row-start-2 mt-28 col-span-5 col-start-1">
+                    <a href="/projects/givemeyesterday" >
+                        <button
+                            className="font-favorit text-base border-black py-3 px-16 outline outline-1 hover:bg-orangehighlight hover:border-white hover:text-black ease-in-out duration-300 lg:visible md:visible invisible lg:mt-5">
+                            Read More
+                        </button>
+                    </a>
+                </div>
+
+
+                <a className="col-start-1 col-span-full lg:col-span-16 lg:col-start-9 lg:row-start-2 -mt-8 md:mt-5 lg:mt-0 outline outline-1"
+                   href="/projects/optionsforsexualhealth">
+                    <Image src="/img/optionsforsexualhealth/optionsforsexualhealth_thumbnail.png"
+                           alt="a laptop"
+                           width={3075}
+                           height={1672}
+                           className=""
+                    >
+                    </Image>
+                </a>
             </div>
 
         </main>
