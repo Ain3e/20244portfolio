@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
 
-            <Image src="/img/optionsforsexualhealth/casestudypicture.png"
+            <Image src="/img/optionsforsexualhealth/mockup.png"
                    alt="a laptop"
                    width={3075}
                    height={1672}
