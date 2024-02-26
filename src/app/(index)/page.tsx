@@ -241,7 +241,7 @@ export default function Home() {
                 </div>
 
                 <div className="row-start-2 mt-28 col-span-5 col-start-1">
-                    <a href="/projects/givemeyesterday" >
+                    <a href="/projects/optionsforsexualhealth" >
                         <button
                             className="font-favorit text-base border-black py-3 px-16 outline outline-1 hover:bg-orangehighlight hover:border-white hover:text-black ease-in-out duration-300 lg:visible md:visible invisible lg:mt-5">
                             Read More
@@ -250,7 +250,7 @@ export default function Home() {
                 </div>
 
 
-                <a className="col-start-1 col-span-full lg:col-span-16 lg:col-start-9 lg:row-start-2 -mt-8 md:mt-5 lg:mt-0 outline outline-1"
+                <a className="col-start-1 col-span-full lg:col-span-16 lg:col-start-9 lg:row-start-2 -mt-8 md:mt-5 lg:mt-0 "
                    href="/projects/optionsforsexualhealth">
                     <Image src="/img/optionsforsexualhealth/optionsforsexualhealth_thumbnail.png"
                            alt="a laptop"

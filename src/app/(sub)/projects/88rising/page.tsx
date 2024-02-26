@@ -145,7 +145,7 @@ export default function Home() {
                        alt="a laptop"
                        width={3459}
                        height={1947}
-                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black border"
                 >
                 </Image>
 
@@ -211,7 +211,7 @@ export default function Home() {
                        alt="a laptop"
                        width={3459}
                        height={1947}
-                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black"
+                       className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 outline border-black border"
                 >
                 </Image>
 
@@ -296,7 +296,7 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container">
+                <div className="col-start-1 col-span-full mt-16 lg:mt-0 lg:col-start-11 lg:col-span-14 video-container ">
                     <video autoPlay loop muted className="w-full" preload="auto" playsInline>
                         <source src="/video/88rising/artists.webm" type="video/webm"></source>
                         <source src="/video/88rising/artists.mov" type="video/mp4"></source>
