@@ -176,8 +176,8 @@ export default function Home() {
                     <h4 className="font-favoritmono text-base   ">UX HACKATHON, UX/UI</h4>
                 </div>
 
-                <div className="col-start-1 col-span-9 row-start-2  ">
-                    <h4 className="font-montreal text-2.5xl md:text-3xl lg:text-3xl">03/ OptionsForSexualHealth.org</h4>
+                <div className="col-start-1 col-span-6 md:col-span-9 lg:col-span-9 row-start-2  ">
+                    <h4 className="font-montreal text-2.5xl md:text-3xl lg:text-3xl">03/ Information Revamp</h4>
                 </div>
 
                 <div className="col-start-1 col-span-6 row-start-2 mt-12">
