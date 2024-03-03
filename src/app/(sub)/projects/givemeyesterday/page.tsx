@@ -6,11 +6,12 @@ export default function Home() {
     return (
         <main className="antialiased gap-y-0">
             <div className="App invisible lg:visible md:visible">
-                <AnimatedCursor />
+                <AnimatedCursor/>
             </div>
             <title>Give Me Yesterday</title>
             <div className="bg-dirtywhitebg fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-4 md:mb-0 lg:mb-0">
+                <nav
+                    className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-4 md:mb-0 lg:mb-0">
                     <div className="col-start-1 row-start-1 col-span-2 lg:col-span-4">
                         <a href="/" className="">ALEX LUOWAN</a>
                     </div>
@@ -33,7 +34,8 @@ export default function Home() {
                             </button>
                         </a></li>
                     </ul>
-                    <div className="lg:col-span-5 md:col-span-5 lg:col-start-9 row-start-1 md:col-start-4 invisible md:visible lg:visible">
+                    <div
+                        className="lg:col-span-5 md:col-span-5 lg:col-start-9 row-start-1 md:col-start-4 invisible md:visible lg:visible">
                         <p>INTERACTION/PRODUCT DESIGNER</p>
                     </div>
                 </nav>
@@ -165,7 +167,8 @@ export default function Home() {
                         that aligns more closely with the artistic direction established by the poster. Our stylistic
                         approach drew considerable influence from Radical Swiss Modernism, embracing elements such as
                         asymmetry, restrained color palettes, and purposefully contrasting imagery. The implementation
-                        of Friedman&#39;s Typographical Scale adjustments, Tall Columns, and Superimposed images played a
+                        of Friedman&#39;s Typographical Scale adjustments, Tall Columns, and Superimposed images played
+                        a
                         crucial role in achieving cohesion in the project.
                     </p>
                 </div>
@@ -328,7 +331,7 @@ export default function Home() {
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-20">
                 <div className="col-start-1 col-span-full md:col-span-10 lg:col-span-9">
                     <h3 className="text-mobileheader2 lg:text-2xl font-montreal ">
-                        Thanks for Reading: <span className="text-customGray"> Lessons Learned  </span>
+                        Lessons Learned
                     </h3>
                     <p className="text-bodycopy font-favorit mt-4">
                         Crafting this visual identity was a journey of exploration that not only honed my skills in
