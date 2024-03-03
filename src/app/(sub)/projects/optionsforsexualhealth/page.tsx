@@ -384,7 +384,7 @@ export default function Home() {
                         Originally conceived as a live chat feature, our project evolved following insightful feedback
                         from our second client meeting. Recognizing the limitations of this approach, we adapted its
                         functionality to become a <span className="font-semibold"> question-and-response-based information tool. This tool redirects
-                        users to pertinent pages on the website while also offering pre-screening capabilities to
+                        users to relevant pages on the website while also offering pre-screening capabilities to
                         enhance the efficiency of booking and contact forms. </span>
                     </p>
                     <p className="text-bodycopy font-favorit mt-4">
