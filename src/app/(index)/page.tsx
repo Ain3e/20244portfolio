@@ -42,7 +42,7 @@ export default function Home() {
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-40 lg:mt-24">
                 <div className="md:col-start-4 lg:col-start-9 col-span-6">
                     <h2 className="text-base font-favoritmono text-black leading-5">
-                        HI I’M ALEX, A DATA INFORMED PRODUICT DESIGNER CREATING COMPELLING DIGITAL EXPERIENCES
+                        HI I’M ALEX, A DATA INFORMED PRODUCT DESIGNER CREATING COMPELLING DIGITAL EXPERIENCES
                     </h2>
                 </div>
 
