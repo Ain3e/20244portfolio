@@ -7,10 +7,11 @@ export default function Home() {
     return (
         <main className="antialiased gap-y-0">
             <div className="App invisible lg:visible md:visible">
-                <AnimatedCursor />
+                <AnimatedCursor/>
             </div>
             <div className="bg-dirtywhitebg fixed top-0 left-0 right-0 z-50">
-                <nav className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-4 md:mb-0 lg:mb-0">
+                <nav
+                    className="mx-8 grid grid-cols-6 lg:grid-cols-24 md:grid-cols-12 gap-x-5 font-favoritmono text-base py-4 -mb-4 md:mb-0 lg:mb-0">
                     <div className="col-start-1 row-start-1 col-span-2 lg:col-span-4">
                         <a href="/" className="">ALEX LUOWAN</a>
                     </div>
@@ -33,7 +34,8 @@ export default function Home() {
                             </button>
                         </a></li>
                     </ul>
-                    <div className="lg:col-span-5 md:col-span-5 lg:col-start-9 row-start-1 md:col-start-4 invisible md:visible lg:visible">
+                    <div
+                        className="lg:col-span-5 md:col-span-5 lg:col-start-9 row-start-1 md:col-start-4 invisible md:visible lg:visible">
                         <p>INTERACTION/PRODUCT DESIGNER</p>
                     </div>
                 </nav>
@@ -42,7 +44,8 @@ export default function Home() {
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-40 lg:mt-24">
                 <div className="md:col-start-4 lg:col-start-9 col-span-6">
                     <h2 className="text-base font-favoritmono text-black leading-5">
-                        HI I’M ALEX, A DATA INFORMED PRODUCT DESIGNER CREATING COMPELLING DIGITAL EXPERIENCES
+                        HEY THERE, I&apos;M ALEX! ALL ABOUT CRAFTING FUN HUMAN EXPERIENCES THROUGH CAPTIVATING VISUALS AND
+                        INTERACTIVE DESIGN WIZARDRY.
                     </h2>
                 </div>
 
@@ -55,7 +58,7 @@ export default function Home() {
                 <div className="lg:col-start-9 md:col-start-4 col-span-2">
                     <h4 className="font-favoritmono text-base mt-8 text-orangehighlight">YEAR</h4>
                 </div>
-                <div className="lg:col-start-12 col-span-2 md:col-start-8 md:row-start-3 col-start-5 lg:col-span-4" >
+                <div className="lg:col-start-12 col-span-2 md:col-start-8 md:row-start-3 col-start-5 lg:col-span-4">
                     <h4 className="font-favoritmono text-base mt-8 text-orangehighlight">TYPE OF WORK</h4>
                 </div>
                 <div className="col-start-1 col-span-full">
@@ -86,7 +89,7 @@ export default function Home() {
                 </div>
 
                 <div className="row-start-2 mt-28 col-span-5 col-start-1">
-                    <a href="/projects/88rising" >
+                    <a href="/projects/88rising">
                         <button
                             className="font-favorit text-base border-black py-3 px-16 outline outline-1 hover:bg-orangehighlight hover:border-white hover:text-black ease-in-out duration-300 lg:visible md:visible invisible">
                             Read More
@@ -136,11 +139,12 @@ export default function Home() {
                 </div>
 
                 <div className="col-start-1 col-span-6 row-start-2 mt-12">
-                    <p className="font-favorit text-mobilebodycopy">A compelling online preview for an upcoming exhibition, enticing visitors to experience the works in person.</p>
+                    <p className="font-favorit text-mobilebodycopy">A compelling online preview for an upcoming
+                        exhibition, enticing visitors to experience the works in person.</p>
                 </div>
 
                 <div className="row-start-2 mt-28 col-span-5 col-start-1">
-                    <a href="/projects/givemeyesterday" >
+                    <a href="/projects/givemeyesterday">
                         <button
                             className="font-favorit text-base border-black py-3 px-16 outline outline-1 hover:bg-orangehighlight hover:border-white hover:text-black ease-in-out duration-300 lg:visible md:visible invisible lg:mt-5">
                             Read More
@@ -151,19 +155,19 @@ export default function Home() {
 
                 <a className="col-start-1 col-span-full lg:col-span-16 lg:col-start-9 lg:row-start-2 -mt-8 md:mt-5 lg:mt-0"
                    href="/projects/givemeyesterday">
-                            <Image src="/img/givemeyesterday/givemeyesterday-thumbnail.png"
-                                   alt="a laptop"
-                                   width={3075}
-                                   height={1672}
-                                   className=""
-                            >
-                            </Image>
+                    <Image src="/img/givemeyesterday/givemeyesterday-thumbnail.png"
+                           alt="a laptop"
+                           width={3075}
+                           height={1672}
+                           className=""
+                    >
+                    </Image>
                 </a>
                 <div className="col-start-1 col-span-full">
                     <hr className="bg-black mt-3 border-1 border-black "></hr>
                 </div>
             </div>
-            
+
             <div className="mx-8 grid grid-cols-6 md:grid-cols-12 lg:grid-cols-24 gap-x-5 mt-2 ">
 
                 <div className="col-start-1 col-span-2 md:col-span-3 lg:col-span-4">
@@ -181,11 +185,12 @@ export default function Home() {
                 </div>
 
                 <div className="col-start-1 col-span-6 row-start-2 mt-12">
-                    <p className="font-favorit text-mobilebodycopy">A web intervention for Options for Sexual Health aims to offer an efficient online platform for users seeking sexual health information.</p>
+                    <p className="font-favorit text-mobilebodycopy">A web intervention for Options for Sexual Health
+                        aims to offer an efficient online platform for users seeking sexual health information.</p>
                 </div>
 
                 <div className="row-start-2 mt-28 col-span-5 col-start-1">
-                    <a href="/projects/optionsforsexualhealth" >
+                    <a href="/projects/optionsforsexualhealth">
                         <button
                             className="font-favorit text-base border-black py-3 px-16 outline outline-1 hover:bg-orangehighlight hover:border-white hover:text-black ease-in-out duration-300 lg:visible md:visible invisible lg:mt-5">
                             Read More
